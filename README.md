@@ -53,6 +53,7 @@ describe("hoge fuga", function() {
     });
     it("should return hogehoge", function() {
       // util.hoge(), util.fuga()が両方hogeを返したら、app.hogefuga()は"hogehoge"を返すよね？という意味のないテスト
+      // ですが、jestの威力を知るにはこれで十分なのです。
       expect(app.hogefuga()).toEqual("hogehoge");
     });
   });
