@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   hoge: function() {
     return "hoge";
   },

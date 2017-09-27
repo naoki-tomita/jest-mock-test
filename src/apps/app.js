@@ -1,6 +1,6 @@
-import utils from "../utils/util";
+var utils = require("../utils/util");
 
-export default {
+module.exports = {
   hogefuga: function() {
     return utils.hoge() + utils.fuga();
   }
