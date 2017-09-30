@@ -9,9 +9,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
     "jest": "^21.2.0"
   },
   "jest": {
     "automock": true
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
   }
 }
