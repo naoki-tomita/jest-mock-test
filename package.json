@@ -9,15 +9,25 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-preset-latest": "^6.24.1",
-    "jest": "^21.2.0"
+    "jest": "22.4.3"
+  },
+  "dependencies": {
+    "@types/jest": "^22.2.2",
+    "ts-jest": "^22.4.2",
+    "typescript": "^2.8.1"
   },
   "jest": {
-    "automock": true
-  },
-  "babel": {
-    "presets": [
-      "latest"
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
     ]
   }
 }
